@@ -1,8 +1,12 @@
-# app.py
 from flask import Flask, request, jsonify
+from flasgger import Swagger
+from flask_cors import CORS
 from health_utils import calculate_bmi, calculate_bmr
+from swagger_config import swagger_template
 
 app = Flask(__name__)
+CORS(app)
+swagger = Swagger(app, template=swagger_template)
 
 @app.route('/')
 def home():
@@ -23,7 +27,7 @@ def bmi():
 def bmr():
     data = request.get_json()
     try:
-        height_cm = data['height']  # La hauteur doit être fournie en cm directement
+        height_cm = data['height']
         weight = data['weight']
         age = data['age']
         gender = data['gender']
