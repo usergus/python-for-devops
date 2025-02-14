@@ -1,6 +1,6 @@
-<p align="center">
+<div align="center">
   <h1>✨ Health Calculator API ✨</h1>
-</p>
+</div>
 
 <p align="center">
   <img src="images/banner.png" alt="✨ python-for-devops ✨" />
