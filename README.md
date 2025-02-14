@@ -1,11 +1,17 @@
+# ✨ python-for-devops showcase ✨
+
+
 ![✨ python-for-devops showcase ✨](images/banner.png)
 
-# python-for-devops
+![Last Commit](https://img.shields.io/badge/LAST%20COMMIT-YESTERDAY-blue?style=for-the-badge) 
+![Repo Size](https://img.shields.io/badge/REPO%20SIZE-53.3%20MiB-purple?style=for-the-badge) 
+![Python Version](https://img.shields.io/badge/PYTHON-3.8.10-blue?style=for-the-badge)
+
 
 # Health Calculator API
 
 ## 🌍 Déploiement sur Azure
-L'application est déployée via une **pipeline CI/CD GitHub Actions** sur **Azure App Service** et est accessible à l'URL suivante :
+L'API est déployée via une **pipeline CI/CD GitHub Actions** sur **Azure App Service** et est accessible à l'URL suivante :
 
 🔗 **[Health Calculator API](https://health-calculator-app-msi2doa-cprigent1-exb7feakamgjf3d3.francecentral-01.azurewebsites.net/)**
 
@@ -50,10 +56,10 @@ Si l'application tourne correctement, vous devriez voir un message d'accueil.
 ```
 
 ### 🔹 **2. Installer l'environnement Python**
-Assurez-vous d'avoir Python 3.9 ou supérieur :
+Assurez-vous d'avoir Python 3.8 ou supérieur :
 ```sh
 python -m venv my_venv
-source my_venv/bin/activate  # (Windows: my_venv\Scripts\activate)
+source my_venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -65,46 +71,5 @@ L'API sera disponible sur `http://127.0.0.1:5000/`
 
 ### 🔹 **4. Exécuter les tests unitaires**
 ```sh
-make test
+make test-api
 ```
-
----
-
-## 🐳 Exécution avec Docker
-
-### 🔹 **1. Construire et exécuter le conteneur**
-```sh
-make build
-make run-docker
-```
-L'API sera accessible via `http://localhost:5000/`
-
-### 🔹 **2. Pousser l'image sur GitHub Container Registry (GHCR)**
-```sh
-docker tag health-calculator ghcr.io/<votre-utilisateur>/health-calculator:latest
-docker push ghcr.io/<votre-utilisateur>/health-calculator:latest
-```
-
----
-
-## 🚀 Déploiement sur Azure
-
-### 🔹 **1. Configurer Azure App Service**
-1. Créez une **Web App** sur Azure avec Docker.
-2. Configurez l'image comme : `ghcr.io/<votre-utilisateur>/health-calculator:latest`
-3. Ajoutez un secret `GHCR_PAT` à GitHub pour l'authentification.
-
-### 🔹 **2. Déclencher le déploiement via GitHub Actions**
-Poussez les modifications sur `main` pour exécuter la CI/CD automatiquement :
-```sh
-git add .
-git commit -m "Déploiement sur Azure"
-git push origin main
-```
-
-Une fois le déploiement terminé, l'API sera accessible à :
-```
-https://<votre-app>.azurewebsites.net/
-```
-
----
