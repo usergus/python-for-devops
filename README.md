@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>✨ python-for-devops ✨</h1>
+  <h1>✨ Health Calculator API ✨</h1>
 </p>
 
 <p align="center">
@@ -12,15 +12,6 @@
   <img src="https://img.shields.io/badge/PYTHON-3.8.10-blue?style=for-the-badge" />
 </p>
 
-# python-for-devops
-
-# Health Calculator API
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STARS-1.2K-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CHAT-245%20ONLINE-purple?style=for-the-badge" />
-</p>
----
 
 ## 🧪 Tester l'API
 
