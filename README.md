@@ -1,4 +1,6 @@
-# python-for-devops 
+![✨ python-for-devops showcase ✨](images/banner.png)
+
+# python-for-devops
 
 # Health Calculator API
 
@@ -11,7 +13,7 @@ L'application est déployée via une **pipeline CI/CD GitHub Actions** sur **Azu
 
 ## 🧪 Tester l'API
 
-### 🔹 **1. Tester avec `curl`**
+### 🌟 **1. Tester avec `curl`**
 #### **Calcul de l'IMC (BMI)**
 ```sh
 curl -X POST -H "Content-Type: application/json" -d '{"height": 1.75, "weight": 70}' https://health-calculator-app-msi2doa-cprigent1-exb7feakamgjf3d3.francecentral-01.azurewebsites.net/bmi
@@ -22,18 +24,13 @@ curl -X POST -H "Content-Type: application/json" -d '{"height": 1.75, "weight": 
 curl -X POST -H "Content-Type: application/json" -d '{"height": 175, "weight": 70, "age": 25, "gender": "male"}' https://health-calculator-app-msi2doa-cprigent1-exb7feakamgjf3d3.francecentral-01.azurewebsites.net/bmr
 ```
 
-### 🔹 **2. Tester avec Postman**
-- Ouvrez **Postman**.
-- Créez une **requête POST**.
-- **Ajoutez l'URL** (`/bmi` ou `/bmr`).
-- **Body** en JSON :
-  ```json
-  {
-      "height": 1.75,
-      "weight": 70
-  }
-  ```
-- Cliquez sur **"Send"** pour voir la réponse.
+### 🌟 **2. Tester depuis le Swagger**
+Rendez-vous à l'URL suivante: 
+[Swagger Docs](https://health-calculator-app-msi2doa-cprigent1-exb7feakamgjf3d3.francecentral-01.azurewebsites.net/apidocs/)
+
+puis suivez le guide :
+
+![Swagger Guide](images/swagger.gif)
 
 ### 🔹 **3. Tester avec un navigateur**
 Allez sur :
