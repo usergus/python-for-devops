@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/LAST%20COMMIT-YESTERDAY-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LAST%20COMMIT-14/02/2025-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/REPO%20SIZE-8.8%20MiB-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/PYTHON-3.8.10-blue?style=for-the-badge" />
 </p>
