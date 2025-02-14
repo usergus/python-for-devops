@@ -1,7 +1,7 @@
 Flask==2.0.2
 Werkzeug==2.0.3
-flasgger
-flask_cors
 wheel
+flasgger==0.9.5
+flask_cors
 gunicorn
 
