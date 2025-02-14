@@ -1,20 +1,25 @@
-# ✨ python-for-devops showcase ✨
+<p align="center">
+  <h1>✨ python-for-devops ✨</h1>
+</p>
 
+<p align="center">
+  <img src="images/banner.png" alt="✨ python-for-devops ✨" />
+</p>
 
-![✨ python-for-devops showcase ✨](images/banner.png)
+<p align="center">
+  <img src="https://img.shields.io/badge/LAST%20COMMIT-YESTERDAY-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/REPO%20SIZE-8.8%20MiB-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PYTHON-3.8.10-blue?style=for-the-badge" />
+</p>
 
-![Last Commit](https://img.shields.io/badge/LAST%20COMMIT-YESTERDAY-blue?style=for-the-badge) 
-![Repo Size](https://img.shields.io/badge/REPO%20SIZE-53.3%20MiB-purple?style=for-the-badge) 
-![Python Version](https://img.shields.io/badge/PYTHON-3.8.10-blue?style=for-the-badge)
-
+# python-for-devops
 
 # Health Calculator API
 
-## 🌍 Déploiement sur Azure
-L'API est déployée via une **pipeline CI/CD GitHub Actions** sur **Azure App Service** et est accessible à l'URL suivante :
-
-🔗 **[Health Calculator API](https://health-calculator-app-msi2doa-cprigent1-exb7feakamgjf3d3.francecentral-01.azurewebsites.net/)**
-
+<p align="center">
+  <img src="https://img.shields.io/badge/STARS-1.2K-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CHAT-245%20ONLINE-purple?style=for-the-badge" />
+</p>
 ---
 
 ## 🧪 Tester l'API
